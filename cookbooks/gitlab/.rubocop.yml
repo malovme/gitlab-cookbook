@@ -1,0 +1,14 @@
+LineLength:
+    Max: 125
+SpaceBeforeFirstArg:
+    Exclude:
+    - metadata.rb
+
+AllCops:
+  Exclude:
+    - '.kitchen/*'
+    - '.vagrant/*'
+Encoding:
+  Enabled: False
+LineLength:
+  Max: 200
